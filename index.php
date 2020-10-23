@@ -15,7 +15,8 @@
     </header>
     <form action="" name="v_f" id="fid" method="POST">
         <input type="text" name="v_nom" maxlength="30" placeholder="Nombre(s)">
-        <input type="text" name="v_apellidos" maxlength="50" placeholder="Apellidos">
+        <input type="text" name="v_apell_pat" maxlength="50" placeholder="Apellido Paterno">
+        <input type="text" name="v_apell_mat" maxlength="50" placeholder="Apellido Materno">
         <input type="number" name="v_edad" min="18" max="25" placeholder="Edad">
         <input type="submit" name="v_enviar" value="Enviar Información">
     </form>
