@@ -21,7 +21,7 @@
     </form>
 <footer>
     <?php 
-        echo "Derechos Reservados ".date("Y");
+        echo "Derechos Reservados Dr. Ángel Vásquez 2013 -".date("Y");
     ?>
 </footer>
 </body>

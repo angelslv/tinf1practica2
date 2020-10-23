@@ -1,0 +1,68 @@
+body{
+    margin:0 auto;
+    background-color: cadetblue;
+    font-family: "Arial Narrow";
+    border:5px dashed black;
+    width:99%;
+}
+header nav{
+    font-size:2.0em;
+    text-align: center;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    margin: 0 auto;
+    border:10px solid yellowgreen;
+    border-radius: 5px;
+    width:50%;
+    height: auto;
+}
+input[type="text"]{
+    background-color:seagreen;
+    color: black;
+    font-size:1.7em;
+    text-align: center;
+    margin: 0 auto;
+    width:98%;
+    height:30px;
+    margin-bottom: 1%;
+}
+
+input[type="text"]::placeholder{
+    color:blue;
+ }
+
+input[type="number"]{
+    background-color:seagreen;
+    color: black;
+    font-size:1.7em;
+    text-align: center;
+    margin: 0 auto;
+    width:98%;
+    height:30px;
+    margin-bottom:1%;
+}
+
+input[type="number"]::placeholder{
+   color:blue;
+}
+
+input[type=submit]{
+    font-size:1.5em;
+    font-family: monospace;
+    background-color:blue;
+    color: white;
+    cursor:pointer;
+    width:99%;
+    height:30px;
+    margin-bottom: 1%;
+}
+
+footer{
+    font-size:1.0em;
+    text-align: center;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
