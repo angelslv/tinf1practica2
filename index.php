@@ -30,7 +30,18 @@
     </form>
     <div class="recepcion_datos">
         <?php 
-         echo "Resultado";
+         $nombre=$_POST['v_nom'];
+         $apellidoPaterno=$_POST['v_apell_pat'];
+         $apellidoMaterno=$_POST['v_apell_mat'];
+         $edad=$_POST['v_edad'];
+         $curp=$_POST['v_curp'];
+         $genero=$_POST['v_genero'];
+
+         echo "**************************";
+         echo "Tus datos fueron procesados: ";
+         echo $nombre." ". $apellidoPaterno." ".$apellidoMaterno." "."Con la edad de: ".$edad." y su CURP: ".$curp." con el registro de género: ".$genero.". Gracias por el envío de sus datos, los cuales serán procesados de manera segura...";   
+         echo "**************************";
+
         ?>
     </div>
 <footer>
