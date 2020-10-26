@@ -66,3 +66,8 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.recepcion_datos{
+    border:10px solid salmon;
+    width:95%;
+    height: 250px;
+}
