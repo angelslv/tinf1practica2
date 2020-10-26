@@ -19,6 +19,13 @@
         <input type="text" name="v_apell_mat" maxlength="50" placeholder="Apellido Materno">
         <input type="number" name="v_edad" min="18" max="25" placeholder="Edad">
         <input type="text" name="v_curp" maxlength="30" placeholder="Curp">
+        <div class="seleccioname">
+        <select class="selecciona" name="v_genero">
+            <option value="_">Selecciona tu género</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+        </div>
         <input type="submit" name="v_enviar" value="Enviar Información">
     </form>
     <div class="recepcion_datos">

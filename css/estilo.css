@@ -65,7 +65,30 @@ footer{
     color:black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.seleccioname{
+    display:block;
+    line-height: 1.3;
+    /*padding: 0.4em 1.4em .3em .8em;*/
+    box-sizing: border-box;
+    appearance: none;
+}
+.selecciona{
+    font-size:1.7em;
+    font-family: "Arial Narrow";
+    background-color:seagreen;
+    color: blue;
+    cursor:pointer;
+    width:100%;
+    height:30px;
+    margin-bottom: 1%;
+}
 
+.selecciona::-ms-expand{
+    display:none;
+}
+.selecciona::placeholder{
+    color:blue;
+}
 .recepcion_datos{
     border:10px solid salmon;
     width:95%;
