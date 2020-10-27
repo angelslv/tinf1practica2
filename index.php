@@ -13,7 +13,7 @@
     <header>
         <nav>PRÁCTICA UTILIZANDO GIT</nav>
     </header>
-    <form action="" name="v_f" id="fid" method="POST">
+    <form action="procesa_datos.php" name="v_f" id="fid" method="POST">
         <input type="text" name="v_nom" maxlength="30" placeholder="Nombre(s)" required>
         <input type="text" name="v_apell_pat" maxlength="50" placeholder="Apellido Paterno" required>
         <input type="text" name="v_apell_mat" maxlength="50" placeholder="Apellido Materno" required>
