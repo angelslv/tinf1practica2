@@ -30,7 +30,7 @@
     </form>
     <div class="recepcion_datos">
         <?php 
-        if(isset($_POST['v_enviar'])){
+       /* if(isset($_POST['v_enviar'])){
             $nombre=$_POST['v_nom'];
             $apellidoPaterno=$_POST['v_apell_pat'];
             $apellidoMaterno=$_POST['v_apell_mat'];
@@ -45,7 +45,7 @@
    
         }
         else
-        exit();
+        exit();*/
         
         ?>
     </div>

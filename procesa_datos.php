@@ -16,7 +16,7 @@ if(isset($_POST['v_enviar'])){
     echo "**************************";
 
     $query_sql="insert into tbl_datos_personales (c_nombre, c_app_pat, c_app_mat, c_edad, c_curp, c_genero) values ('$nombre', '$apellidoPaterno', '$apellidoMaterno', '$edad', '$edad', '$curp', '$genero')";
-    $resultado = mysqli_query($query_sql);
+    $resultado = mysqli_query($link, $query_sql);
     echo "<br> La información también fue almacenada en la base de datos...";
 
 }
